@@ -1,0 +1,35 @@
+/* /* 
+.name{
+    background-color: yellow;
+    color: red;
+    text-align: center;
+}
+#image{
+    width: 250px;
+    height: 250px;
+    align-content: right;
+    border-radius: 20px !important;
+    overflow:visible;
+    justify-content: center;
+    margin: 10px 50px;
+      
+}
+#para{
+    float: right;
+    margin-top: -250px;
+}
+/* .weekdays {
+    margin: 0;
+    padding: 10px 0;
+    background-color: white;
+    display: inline-block;
+  } */
+
+  
+/* .weekdays li {
+    display: inline;
+    width: 0px;
+    color: black;
+    text-align: center;
+    text-decoration: none;
+  }  */

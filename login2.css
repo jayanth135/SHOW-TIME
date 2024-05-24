@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+body{
+    background-color: black;
+
+}
+.name{
+    background-color: red;
+text-align: center;
+}
+.form{
+    text-align: center;
+    color: black;
+
+}
+
+.card{
+    width: 500px;
+    height: 400px;
+    align-content: center;
+    background: white !important;
+    color: black;
+
+    border-radius: 20px !important;
+    overflow:visible;
+    justify-content: center;
+    margin: 111px 400px;
+    float:unset}
+.namee
+{
+    text-align: center;
+    color: red;
+}
+
+.acc
+{
+    text-align:right;
+}
+.form-label{
+    color: black;
+
+}
+
+
+footer{
+    width: 100%;
+    height: 30px;
+    background: black;
+    margin-top:30px;
+    text-align: center;
+    color: red;
+    padding:7px;
+}

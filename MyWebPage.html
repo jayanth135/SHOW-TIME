@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SHOW TIME</title>
+    <link rel="stylesheet" href="MyWebPage(CSS).css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet">
+   
+</head>
+
+<body>
+  
+  <!-- nav bar -->
+
+    <nav class="navbar navbar-expand-lg navbar-dark" id="navbar">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">SHOW TIME</a> 
+          <br><br><br>
+
+          <style>
+            input[type=text] {
+              width: 150px;
+              box-sizing: border-box;
+              border: 3px solid black;
+              border-radius: 4px;
+              font-size: 15px;
+              background-color: white;
+              
+              background-position: 10px 20px; 
+              background-repeat: no-repeat;
+              padding: 6px 10px 6px 20px;
+              transition: width 0.2s ;
+            }
+            
+            input[type=text]:focus {
+              width: 200%;
+            }
+            </style>
+            <form>
+              <input type="text" name="search" placeholder="Search Movies" autocomplete="off">
+            </form>
+        
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-expanded="false">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mx-auto">
+              <a href="#" class="btn btn-danger">Search</a>
+              <li class="nav-item">
+                <a class="nav-link" href="#home">Home</a>
+              </li>
+
+              
+              <li class="nav-item">
+                <a class="nav-link" href="#slides">Movies</a>
+
+                <li class="nav-item">
+                  <a class="nav-link" href="#movies">Now Showing</a>
+              </li> <br> <br>
+              
+          
+              <li class="nav-item">
+              <a href="login2.html" target="_blank" class="btn btn-success">LOGIN</a>
+              </li>
+             </ul>
+
+        </div>
+        
+      </nav>
+
+      <!--image slides carosel-->
+
+      <section id="slides">
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
+
+      <div id="carouselExampleIndicators" class="carousel slide carousel-fade"   data-bs-ride="true">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+          <div class="col-lg-4 col-md-4 col-12"></div>
+        
+        </div>
+        
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="karr3-ImResizer.jpg" class="d-block w-100%">
+            <div class="col-lg-4 col-md-4 col-12">
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="sita2.jpg" class="d-block w-100%" >
+            <div class="col-lg-4 col-md-4 col-12"></div>
+          </div>
+          <div class="carousel-item">
+            <img src="muuthu-ImResizer.jpg" class="d-block w-100%" >
+            <div class="col-lg-4 col-md-4 col-12"></div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </section>
+      </div>
+
+<!-- home -->
+     <section id="home">
+          <h1 class="text-center">SHOW TIME</h1>
+          <p>Book Your Ticket From Anywhere In The World</p>
+          <div class="input-group m-4"></div>  
+      </section>
+
+      <!--Movie Cards -->
+
+      <section id="movies">
+        <div class="container m-5">
+          <h1 class="text-center my-5">Recommended Movies </h1>
+          <div class="row">
+              <div class="col-lg-4 col-md-4 col-12">
+                  <div class="card">
+                      <img src="muthu.avif" class="card-img-top">
+                      <div class="card-body text-center">
+                        <h5 class="card-title">THE LIFE OF MUTHU</h5>
+                        <a href="booking3.html" target="_blank" class="btn btn-warning">BOOK NOW</a>
+                      </div>
+                    </div>
+              </div>
+              <div class="col-lg-4 col-md-4 col-12">
+                  <div class="card">
+                      <img src="kar2.jpg" class="card-img-top">
+                      <div class="card-body text-center">
+                        <h5 class="card-title">KARTHIKEYA 2</h5>
+                        <a href="booking1.html" target="_blank" class="btn btn-warning">BOOK NOW</a>
+                      </div>
+                    </div>
+              </div>
+              <div class="col-lg-4 col-md-4 col-12">
+                  <div class="card">
+                      <img src="sitaramam.jpg" class="card-img-top">
+                      <div class="card-body text-center">
+                        <h5 class="card-title">SITA RAMAMM</h5>
+                        <a href="booking2.html" target="_blank" class="btn btn-warning">BOOK NOW</a>
+                      </div>
+                    </div>
+              </div>
+          </div>
+          <div class="row">
+              <div class="col-lg-4 col-md-4 col-12">
+                  <div class="card">
+                      <img src="brah.jpg" class="card-img-top">
+                      <div class="card-body text-center">
+                        <h5 class="card-title">BRAHMASTRA</h5>
+                        <a href="booking.html" target="_blank" class="btn btn-warning">BOOK NOW</a>
+                      </div>
+                    </div>
+                  </div> 
+            
+                <div class="col-lg-4 col-md-4 col-12">
+                    <div class="card">
+                        <img src="cap.jpg" class="card-img-top">
+                        <div class="card-body text-center">
+                          <h5 class="card-title">CAPTAIN</h5>
+                          <a href="https://www.ticketnew.com/Captain-Movie-Tickets-Online-Show-Timings/Online-Advance-Booking/25570/C/Bangalore" target="_blank" class="btn btn-warning">BOOK NOW</a>
+                        </div>
+                      </div>
+                </div>    
+                <div class="col-lg-4 col-md-4 col-12">
+                  <div class="card">
+                      <img src="thiru.jpg" class="card-img-top">
+                      <div class="card-body text-center">
+                        <h5 class="card-title">THIRU</h5>
+                        <a href="https://www.ticketnew.com/Thiruchitrambalam-Movie-Tickets-Online-Show-Timings/Online-Advance-Booking/25332/C/Bangalore" target="_blank" class="btn btn-warning">BOOK NOW</a>
+                      </div>
+                    </div>
+              </div>
+          </div> 
+
+          <div class="row">
+            <div class="col-lg-4 col-md-4 col-12">
+                <div class="card">
+                    <img src="bimbi.jpg" class="card-img-top">
+                    <div class="card-body text-center">
+                      <h5 class="card-title">BIMBISARA</h5>
+                      <a href=" https://www.ticketnew.com/Bimbisara-Movie-Tickets-Online-Show-Timings/Online-Advance-Booking/25316/C/Bangalore" target="_blank" class="btn btn-warning">BOOK NOW</a>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-lg-4 col-md-4 col-12">
+                  <div class="card">
+                      <img src="thor'.jpg" class="card-img-top">
+                      <div class="card-body text-center">
+                        <h5 class="card-title">Thor - Love and Thunder</h5>
+                        <a href="https://www.ticketnew.com/Thor---Love-and-Thunder-Movie-Tickets-Online-Show-Timings/Online-Advance-Booking/25002/C/Bangalore"  target="_blank"  class="btn btn-warning">BOOK NOW</a>
+                      </div>
+                    </div>
+              </div>    
+              <div class="col-lg-4 col-md-4 col-12">
+                <div class="card">
+                    <img src="beast.jpg" class="card-img-top">
+                    <div class="card-body text-center">
+                      <h5 class="card-title">BEAST</h5>
+                      <a href="https://in.bookmyshow.com/bengaluru/movies/beast-english/ET00333354" target="_blank" class="btn btn-warning">BOOK NOW</a>
+                    </div>
+                  </div>
+            </div>
+        </div> 
+
+                
+
+          
+          
+          <nav class="navbar navbar-expand-lg navbar-dark" id="navbarr">
+            <div class="container-fluid">
+             
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-expanded="false">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mx-auto">
+                  <li class="nav-item">
+                    <a class="nav-link" href="index.html" target="_blank">Contact Us</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#home">FAQ</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#home">About</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#home">Feedback</a>
+                  </li>
+                </ul>
+                
+            </div>
+          </nav> 
+
+        </section>
+
+        <style>
+          footer{
+            width: 100%;
+      height: 33px;
+      background: rgba(248, 8, 8, 0.8);
+      
+      text-align: center;
+      color: white;
+      padding:3px;
+   
+          }
+  
+        </style>
+        <footer>Copyrights Registered in 2022</footer>
+</body>
+</html>
